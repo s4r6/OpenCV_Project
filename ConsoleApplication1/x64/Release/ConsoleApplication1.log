@@ -1,0 +1,14 @@
+﻿  Alcon2024.cpp
+C:\opencv\build\include\opencv2\calib3d.hpp(1,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+C:\Users\kouta\source\repos\OpenCV_Project\ConsoleApplication1\Alcon2024.cpp(217,55): warning C4838: 'unsigned __int64' から 'int' への変換には縮小変換が必要です
+C:\Users\kouta\source\repos\OpenCV_Project\ConsoleApplication1\Alcon2024.cpp(217,55): warning C4267: '初期化中': 'size_t' から 'int' に変換しました。データが失われているかもしれません。
+C:\Users\kouta\source\repos\OpenCV_Project\ConsoleApplication1\Alcon2024.cpp(218,23): warning C4838: 'unsigned __int64' から 'int' への変換には縮小変換が必要です
+C:\Users\kouta\source\repos\OpenCV_Project\ConsoleApplication1\Alcon2024.cpp(218,23): warning C4267: '初期化中': 'size_t' から 'int' に変換しました。データが失われているかもしれません。
+C:\Users\kouta\source\repos\OpenCV_Project\ConsoleApplication1\Alcon2024.cpp(218,44): warning C4838: 'unsigned __int64' から 'int' への変換には縮小変換が必要です
+C:\Users\kouta\source\repos\OpenCV_Project\ConsoleApplication1\Alcon2024.cpp(218,44): warning C4267: '初期化中': 'size_t' から 'int' に変換しました。データが失われているかもしれません。
+  コード生成しています。
+  Previous IPDB not found, fall back to full compilation.
+C:\Users\kouta\source\repos\OpenCV_Project\ConsoleApplication1\Alcon2024.cpp(57): warning C4715: 'CsvReader': 値を返さないコントロール パスがあります。
+  All 450 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  コード生成が終了しました。
+  ConsoleApplication1.vcxproj -> C:\Users\kouta\source\repos\OpenCV_Project\x64\Release\OpenCV_Sample2.exe

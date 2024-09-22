@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kouta\\source\\repos\\OpenCV_Project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{87FAB1FB-43BC-4178-9690-10007938B277}|OpenCV_Main\\OpenCV_Main.vcxproj|C:\\Users\\kouta\\source\\repos\\OpenCV_Project\\OpenCV_Main\\OpenCV_Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{87FAB1FB-43BC-4178-9690-10007938B277}|OpenCV_Main\\OpenCV_Main.vcxproj|solutionrelative:OpenCV_Main\\OpenCV_Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6FA85C3-6BB1-4A55-A082-071755A10010}|OpenCV_Project\\OpenCV_Project.vcxproj|C:\\Users\\kouta\\source\\repos\\OpenCV_Project\\OpenCV_Project\\Sample.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C6FA85C3-6BB1-4A55-A082-071755A10010}|OpenCV_Project\\OpenCV_Project.vcxproj|solutionrelative:OpenCV_Project\\Sample.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OpenCV_Main.cpp",
+              "DocumentMoniker": "C:\\Users\\kouta\\source\\repos\\OpenCV_Project\\OpenCV_Main\\OpenCV_Main.cpp",
+              "RelativeDocumentMoniker": "OpenCV_Main\\OpenCV_Main.cpp",
+              "ToolTip": "C:\\Users\\kouta\\source\\repos\\OpenCV_Project\\OpenCV_Main\\OpenCV_Main.cpp",
+              "RelativeToolTip": "OpenCV_Main\\OpenCV_Main.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-22T08:40:11.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Sample.cpp",
+              "DocumentMoniker": "C:\\Users\\kouta\\source\\repos\\OpenCV_Project\\OpenCV_Project\\Sample.cpp",
+              "RelativeDocumentMoniker": "OpenCV_Project\\Sample.cpp",
+              "ToolTip": "C:\\Users\\kouta\\source\\repos\\OpenCV_Project\\OpenCV_Project\\Sample.cpp",
+              "RelativeToolTip": "OpenCV_Project\\Sample.cpp",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-19T06:37:54.536Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
