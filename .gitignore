@@ -3,3 +3,5 @@
 .vs/OpenCV_Project/v17/ipch/AutoPCH/cbd5001eac41a0b8/ALCON2024.ipch
 .vs/OpenCV_Project/v17/ipch/AutoPCH/bed68aeb94e7bd83/OPENCV_MAIN.ipch
 .vs/OpenCV_Project/v16/ipch/AutoPCH/d165d5a3b0f13c2c/SAMPLE.ipch
+*.mp4
+*.ipch

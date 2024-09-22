@@ -7,8 +7,8 @@ C:\Users\kouta\source\repos\OpenCV_Project\ConsoleApplication1\Alcon2024.cpp(218
 C:\Users\kouta\source\repos\OpenCV_Project\ConsoleApplication1\Alcon2024.cpp(218,44): warning C4838: 'unsigned __int64' から 'int' への変換には縮小変換が必要です
 C:\Users\kouta\source\repos\OpenCV_Project\ConsoleApplication1\Alcon2024.cpp(218,44): warning C4267: '初期化中': 'size_t' から 'int' に変換しました。データが失われているかもしれません。
   コード生成しています。
-  Previous IPDB not found, fall back to full compilation.
-C:\Users\kouta\source\repos\OpenCV_Project\ConsoleApplication1\Alcon2024.cpp(57): warning C4715: 'CsvReader': 値を返さないコントロール パスがあります。
-  All 450 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  3 of 450 functions ( 0.7%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    17 functions had inline decision re-evaluated but remain unchanged
   コード生成が終了しました。
   ConsoleApplication1.vcxproj -> C:\Users\kouta\source\repos\OpenCV_Project\x64\Release\OpenCV_Sample2.exe

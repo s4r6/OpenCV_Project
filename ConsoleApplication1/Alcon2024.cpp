@@ -81,7 +81,7 @@ int main()
 	const std::string problem_name = "Problem_01";
 
 	// 動画ファイルのパスの文字列を格納するオブジェクトを宣言
-	const std::string filepath_problem_dir = "./data/" + problem_name;
+	const std::string filepath_problem_dir = "./data/";
 	const std::string filepath_input_csv = filepath_problem_dir + "/input-" + problem_name + ".csv";
 	const std::string out_filepath = "./data/" + problem_name + "/result.mp4";
 
