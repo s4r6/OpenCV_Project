@@ -1,0 +1,13 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: 中間ディレクトリ (x64\Release\) に別のプロジェクト (OpenCV_Project.vcxproj) と共有されているファイルが含まれています。これにより、クリーンしてリビルド動作が適切に行われない可能性があります。
+  Alcon2024.cpp
+C:\opencv\build\include\opencv2\calib3d.hpp(1,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+C:\Users\kouta\source\repos\OpenCV_Project\OpenCV_Project\Alcon2024.cpp(217,55): warning C4838: 'unsigned __int64' から 'int' への変換には縮小変換が必要です
+C:\Users\kouta\source\repos\OpenCV_Project\OpenCV_Project\Alcon2024.cpp(217,55): warning C4267: '初期化中': 'size_t' から 'int' に変換しました。データが失われているかもしれません。
+C:\Users\kouta\source\repos\OpenCV_Project\OpenCV_Project\Alcon2024.cpp(218,23): warning C4838: 'unsigned __int64' から 'int' への変換には縮小変換が必要です
+C:\Users\kouta\source\repos\OpenCV_Project\OpenCV_Project\Alcon2024.cpp(218,23): warning C4267: '初期化中': 'size_t' から 'int' に変換しました。データが失われているかもしれません。
+C:\Users\kouta\source\repos\OpenCV_Project\OpenCV_Project\Alcon2024.cpp(218,44): warning C4838: 'unsigned __int64' から 'int' への変換には縮小変換が必要です
+C:\Users\kouta\source\repos\OpenCV_Project\OpenCV_Project\Alcon2024.cpp(218,44): warning C4267: '初期化中': 'size_t' から 'int' に変換しました。データが失われているかもしれません。
+  Sample.cpp
+C:\opencv\build\include\opencv2\calib3d.hpp(1,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+Sample.obj : error LNK2005: main は既に Alcon2024.obj で定義されています。
+C:\Users\kouta\source\repos\OpenCV_Project\x64\Release\OpenCV_Sample1.exe : fatal error LNK1169: 1 つ以上の複数回定義されているシンボルが見つかりました。
