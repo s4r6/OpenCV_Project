@@ -72,7 +72,7 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <IncludePath>C:\opencv\build\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\opencv\build\x64\vc15\lib;$(LibraryPath)</LibraryPath>
+    <LibraryPath>C:\opencv\build\x64\vc16\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -132,11 +132,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BackGroundDiff.cpp" />
+    <ClCompile Include="Binarization.cpp" />
+    <ClCompile Include="BoundingBox.cpp" />
     <ClCompile Include="InputFileReader.cpp" />
     <ClCompile Include="OpenCV_Main.cpp" />
+    <ClCompile Include="TemplateMatching.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BackGroundDiff.h" />
+    <ClInclude Include="Binarization.h" />
+    <ClInclude Include="BoundingBox.h" />
+    <ClInclude Include="CommonValue.h" />
     <ClInclude Include="Repository.h" />
+    <ClInclude Include="TemplateMatching.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

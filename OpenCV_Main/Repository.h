@@ -18,8 +18,9 @@ namespace Repository
 		std::string _outFilePath = "";	//結果の出力先パス
 	
 	public:
-		virtual int ReadMovie(int& width, int& height, double& fps) = 0;	//動画よみこみ
+		virtual int CreateVideo(int& width, int& height, double& fps, cv::VideoCapture& video) = 0;	//動画出力
 		virtual int ReadData() = 0;	//データ読み込み
+		virtual void DrawToVideo(cv::Mat& image) = 0;
 	};
 
 
@@ -30,8 +31,7 @@ namespace Repository
 	{
 	private:
 		std::vector<std::vector<std::string>> read_csv_contents = std::vector<std::vector<std::string>>(0);
-		cv::VideoCapture video;	
-		cv::VideoWriter writer;
+		cv::VideoWriter writer;	//動画を出力する用のクラス
 
 		int ReadData() override;
 		
@@ -39,8 +39,8 @@ namespace Repository
 
 	public:
 		InputFileReader(std::string data_rootPath, std::string problem_name);
-		int ReadMovie(int& width, int& height, double& fps) override;
-		
+		int CreateVideo(int& width, int& height, double& fps, cv::VideoCapture& video) override;
+		void DrawToVideo(cv::Mat& image) override;
 		 
 	};
 }

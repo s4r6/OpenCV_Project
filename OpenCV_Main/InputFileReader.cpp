@@ -1,5 +1,7 @@
 #include"Repository.h"
-
+/// <summary>
+/// 動画・CSVを読み込む用のクラス
+/// </summary>
 namespace Repository 
 {
 	//指定されたファイルを読み込む
@@ -8,13 +10,11 @@ namespace Repository
 		//PATHを初期化
 		_outFilePath = data_rootPath + problem_name + "/result.mp4";
 		_fileRootPath = data_rootPath;
-		_fileDataPath = data_rootPath + "input-" + problem_name;	
+		_fileDataPath = data_rootPath + "input-" + problem_name + ".csv";
 		
 		ReadData();	//CSVファイル読み込み
-
 		_fileMoviePath = _fileRootPath + read_csv_contents.back()[0];	//後ろから0番目の要素(動画名)を取得
 
-		ReadMovie();	//動画(mp4)ファイル読み込み
 	}
 
 	//CSVファイルの文字列を","で分割して格納
@@ -29,28 +29,32 @@ namespace Repository
 		while (std::getline(ifs, line))	//1行ずつ読み込み
 		{
 			std::vector<std::string> strvec = Split(line, ',');	//読み取った文字列を分割して取得
-
 			read_csv_contents.emplace_back(strvec);
 		}
 	}
 
-	int InputFileReader::ReadMovie(int* width, int* height, double* fps)
+	int InputFileReader::CreateVideo(int& width, int& height, double& fps, cv::VideoCapture& video)
 	{
-		video.open(_fileMoviePath);
-		if (video.isOpened() == false)
+		video.open(_fileMoviePath);	//動画読み込み
+		if (video.isOpened() == false)	//動画の読み込みに失敗したら終了
 		{
 			return -1;
 		}
 
-		int width, height, fourcc;
+		int fourcc;
 		fourcc = cv::VideoWriter::fourcc('H', '2', '6', '4');	//ビデオフォーマットの指定
-		double fps;
+
 
 		width = std::atoi(read_csv_contents[1][0].c_str());	//横幅取得
 		height = std::atoi(read_csv_contents[2][0].c_str());	//縦幅取得
 		fps = std::atoi(read_csv_contents[5][0].c_str());	//フレームレートを取得
 
-		writer.open(_outFilePath, fourcc, fps, cv::Size(width, height));
+		writer.open(_outFilePath, fourcc, fps, cv::Size(width, height));	//動画ファイルの出力
+	}
+
+	void InputFileReader::DrawToVideo(cv::Mat& image)
+	{
+		writer << image;
 	}
 
 	std::vector<std::string> InputFileReader::Split(const std::string& input, const char delimiter)
