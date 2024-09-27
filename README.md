@@ -1,5 +1,6 @@
 ## 入力データ
 OpenCV_Main/dataの中に.csvと.mp4の入力ファイルを入れてね
+もしかしたらVisualStudio2022でOpenCVの環境構築しないと動かないかも
 
 ## 予稿内容
 ・題目と副題
